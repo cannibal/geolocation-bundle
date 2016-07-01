@@ -5,6 +5,7 @@
   "keywords" : ["symfony2", "geocoding", "geoip", "address", "geocode", "geo location"],
   "license" : ["MIT"],
   "homepage": "https://github.com/ph-il/geolocation-bundle",
+  "minimum-stability": ,
   "authors": [
     {
       "name": "Philippe Gamache",
@@ -19,18 +20,17 @@
     "source": "https://github.com/ph-il/geolocation-bundle"
   },
   "require" : {
-    "php": ">=5.4.21",
-    "symfony/symfony": "^2.3|^3.0",
-    "doctrine/orm": "~2.2,>=2.2.3",
-    "doctrine/doctrine-bundle": "~1.2",
-    "twig/extensions": "~1.0",
-    "sensio/framework-extra-bundle": "~3.0",
-    "willdurand/geocoder": "~2.4",
-    "willdurand/geocoder-bundle": "~3.0",
-    "league/geotools": "~0.3",
-    "guzzle/guzzle": "3.*",
+    "php": ">=5.5.9",
+    "symfony/symfony": "3.0.*",
+    "doctrine/orm": "^2.5",
+    "doctrine/doctrine-bundle": "^1.6",
+    "doctrine/doctrine-cache-bundle": "^1.2",
     "doctrine/doctrine-fixtures-bundle": "~2.2",
-    "stof/doctrine-extensions-bundle": "^1.1"
+    "stof/doctrine-extensions-bundle": "^1.1",
+    "twig/extensions": "~1.0",
+    "sensio/framework-extra-bundle": "^3.0.2",
+    "willdurand/geocoder-bundle": "4.*",
+    "league/geotools": "^0.3"
 
   },
   "require-dev": {
