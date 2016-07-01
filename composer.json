@@ -26,10 +26,10 @@
     "doctrine/doctrine-cache-bundle": "^1.2",
     "doctrine/doctrine-fixtures-bundle": "~2.2",
     "stof/doctrine-extensions-bundle": "^1.1",
-    "twig/extensions": "~1.0",
     "sensio/framework-extra-bundle": "^3.0.2",
+    "twig/extensions": "1.*",
     "willdurand/geocoder-bundle": "4.*",
-    "league/geotools": "^0.3"
+    "league/geotools": "0.*"
 
   },
   "minimum-stability": "dev",
